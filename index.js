@@ -17,12 +17,22 @@ ScrollReveal({
     delay: '200'
 
 })
-ScrollReveal().reveal('.my-intro', {origin: 'top'});
-ScrollReveal().reveal('.my-img', {origin: 'bottom'});
-ScrollReveal().reveal('.logo-img', {origin: 'left'});
-ScrollReveal().reveal('.vertical-line', {origin: 'top'});
-ScrollReveal().reveal('.project-description', {origin: 'right'});
-ScrollReveal().reveal('.my-img-2', {origin: 'bottom'});
-ScrollReveal().reveal('.my-contact', {origin: 'top'});
-ScrollReveal().reveal('.my-footer', {origin: 'left'});
-ScrollReveal().reveal('.my-scroll-btn', {origin: 'right'});
+ScrollReveal().reveal('.my-intro', { origin: 'top' });
+ScrollReveal().reveal('.my-img', { origin: 'bottom' });
+ScrollReveal().reveal('.logo-img', { origin: 'left' });
+ScrollReveal().reveal('.vertical-line', { origin: 'top' });
+ScrollReveal().reveal('.project-description', { origin: 'right' });
+ScrollReveal().reveal('.my-img-2', { origin: 'bottom' });
+ScrollReveal().reveal('.my-contact', { origin: 'top' });
+ScrollReveal().reveal('.my-footer', { origin: 'left' });
+ScrollReveal().reveal('.my-scroll-btn', { origin: 'right' });
+
+// type.js
+var typed = new Typed('#role', {
+    strings: ['Backend Developer', 'Graphic Designer','Data Science Enthusiasts.'],
+    typeSpeed: 50,
+    startDelay: 500,
+    showCursor: false,
+    loop: true,
+    loopCount: Infinity,
+});

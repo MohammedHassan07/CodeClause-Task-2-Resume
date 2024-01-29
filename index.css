@@ -85,6 +85,7 @@ span {
 
     font-size: 29px;
     color: var(--primary-green);
+    text-align: left;
 }
 
 .change-text {
