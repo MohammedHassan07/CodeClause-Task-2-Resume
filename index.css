@@ -295,3 +295,25 @@ footer {
     width: 39px;
     cursor: pointer;
 }
+
+input, textarea {
+
+    position: relative;
+}
+/* 
+input:before, textarea:before {
+
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    transition: 0.2s ease-in-out;
+    border-bottom: 2px solid var(--secondary-green);
+}
+
+input:focus:before, textarea:before {
+
+    width: 100%;
+    background-color: white;
+} */

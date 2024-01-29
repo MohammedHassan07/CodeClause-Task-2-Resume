@@ -20,6 +20,7 @@ ScrollReveal({
 ScrollReveal().reveal('.my-intro', {origin: 'top'});
 ScrollReveal().reveal('.my-img', {origin: 'bottom'});
 ScrollReveal().reveal('.logo-img', {origin: 'left'});
+ScrollReveal().reveal('.vertical-line', {origin: 'top'});
 ScrollReveal().reveal('.project-description', {origin: 'right'});
 ScrollReveal().reveal('.my-img-2', {origin: 'bottom'});
 ScrollReveal().reveal('.my-contact', {origin: 'top'});
